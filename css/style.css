@@ -532,6 +532,7 @@ a {
 }
 
     .btn:hover {
+        color: #fff;
         text-decoration: none;
         background-color: #0688FA;
         border-color: rgba(255, 255, 255, 0.3)
@@ -826,6 +827,9 @@ a {
 }
 
 .site-footer {
+    margin: 0 auto;
+    max-width: 64rem;
+    text-align: center;
     padding-top: 2rem;
     margin-top: 2rem;
     border-top: solid 1px #eff0f1
@@ -857,3 +861,10 @@ a {
 .site-footer-credits {
     color: #819198
 }
+
+
+.page-footer {
+    max-width: 64rem;
+    text-align: center;
+}
+
